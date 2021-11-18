@@ -1,0 +1,22 @@
+{
+  "name": "lavalink-arm64",
+  "version": "0.0.1",
+  "description": "Lavalink arm64 build",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DespenserTeam/Lavalink-arm64.git"
+  },
+  "author": "despenser08 <despenser08@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DespenserTeam/Lavalink-arm64/issues"
+  },
+  "homepage": "https://github.com/DespenserTeam/Lavalink-arm64#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
