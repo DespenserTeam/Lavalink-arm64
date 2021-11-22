@@ -59,7 +59,7 @@ jobs:
           cp ../../libconnector.so natives/linux-aarch64
           jar -cvfm ../BOOT-INF/lib/lavaplayer-natives*.jar META-INF/MANIFEST.MF .
           popd; rm -rf lavaplayer-natives-patch
-          jar -cvf0m ../LavalinkPatch.jar META-INF/MANIFEST.MF .
+          jar -cvf0m ../LavalinkARM64.jar META-INF/MANIFEST.MF .
           popd; rm -rf Lavalink-patch
 
       - name: Release LavalinkPatch.jar
